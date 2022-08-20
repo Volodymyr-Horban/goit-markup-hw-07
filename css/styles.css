@@ -123,7 +123,7 @@ img {
     text-decoration: none;
     color: var(--dark-color);
     
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 
@@ -185,6 +185,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover, .contact-link:focus {
@@ -302,6 +304,8 @@ img {
     color: var(--dark-color);
     
     padding: 6px 22px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -459,10 +463,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-icon {
     fill: #AFB1B8;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -522,12 +530,16 @@ img {
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
 .clients-link:focus {
     fill: #2196F3;
     border: 1px solid var(--hover-color);
+
+    
 }
 
 
@@ -545,9 +557,18 @@ img {
     flex-basis: 370px;
    
 }
+
+.sample-item:hover .sample-top-text {
+    transform: translateY(0);
+
+}
 .sample-link {
     display: block; 
     text-decoration: none;
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    
     
 }
 
@@ -556,7 +577,30 @@ img {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.sample-top-wrap {
+    position: relative;
+    overflow: hidden;
+}
 
+.sample-top-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    font-size: 18px;
+    line-height: calc(28/18);
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    background-color: rgba(33, 150, 243, 0.9);
+
+    height: 100%;
+
+    padding: 63px 23px;
+
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 
 .sample-div {
     padding: 20px 24px;
@@ -637,6 +681,8 @@ img {
 
 .footer-contacts-link {
     color: var(--white-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .grey {
@@ -644,7 +690,7 @@ img {
     ;
 }
 
-.footer-contacts-linl:hover, 
+.footer-contacts-link:hover, 
 .footer-contacts-link:focus {
     color: var(--hover-color);
 }
@@ -686,6 +732,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
