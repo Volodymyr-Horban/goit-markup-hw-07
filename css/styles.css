@@ -732,6 +732,7 @@ img {
     display: flex;
     gap: 70px;
     align-items: baseline;
+    justify-content: space-between;
     
 }
 .social {
@@ -777,6 +778,89 @@ img {
     fill: var(--white-color);
 }
 
+.subscription {
+    width: 570px;
+    
+}
+
+.subscription-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.subscription-form-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    
+}
+
+.subscription-form {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: inherit;
+    padding-left: 16px;
+    
+    height: 50px;
+    width: 350px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    
+}
+
+.subscription-btn {
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    background-color:var(--hover-color);
+    border-color: var(--hover-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    text-align: center;
+
+    margin-left: 12px;
+        
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+    
+        
+}
+
+.subscription-btn-position {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscription-icon {
+    fill: var(--white-color);
+    margin-left: 10px;
+    height: 24px;
+    width: 24px;
+
+}
 
 /* Модальне вікно */
 
