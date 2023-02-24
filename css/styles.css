@@ -65,7 +65,7 @@ img {
 }
 
 .container {
-    width: 1200px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -238,35 +238,34 @@ color: var(--title-color);
 /*Hero*/
 
 .hero {
-    max-width: 1600px;
+    max-width: 1440px;
 
 
     background-color: #2F303A;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)), url(../images/hero_bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1600px;
+    background-size: 1440px;
 
 
     margin: 0 auto;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero__title {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: calc(60/44);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: calc(60/56);
     text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
     color: var(--white-color);
 
-    max-width: 696px;
+    max-width: 496px;
 
 
     margin-left: auto;
@@ -275,21 +274,23 @@ color: var(--title-color);
 }
 
 .hero__btn {
-    font-weight: 700;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
-    line-height: calc(30/16);
-    align-items: center;
+    line-height: calc(24/16);
+    letter-spacing: 0.04em;
     text-align: center;
     color: var(--white-color);
-    background-color: var(--hover-color);
+    background-color: var(--primary-brand);
     border: none;
     cursor: pointer;
 
-    min-width: 216px;
-    height: 50px;
+    min-width: 169px;
+    height: 56px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-top: 30px;
+    margin-top: 48px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
